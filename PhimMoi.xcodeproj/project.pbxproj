@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0F73131EFCD854008BAE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F73121EFCD854008BAE8D /* AppDelegate.swift */; };
+		CA0F73151EFCD854008BAE8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F73141EFCD854008BAE8D /* ViewController.swift */; };
+		CA0F73181EFCD854008BAE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0F73161EFCD854008BAE8D /* Main.storyboard */; };
+		CA0F731B1EFCD854008BAE8D /* PhimMoi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA0F73191EFCD854008BAE8D /* PhimMoi.xcdatamodeld */; };
+		CA0F731D1EFCD854008BAE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F731C1EFCD854008BAE8D /* Assets.xcassets */; };
+		CA0F73201EFCD854008BAE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0F731E1EFCD854008BAE8D /* LaunchScreen.storyboard */; };
+		CA7F21FD1EFE399B000A9940 /* CustomHeaderMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F21FC1EFE399B000A9940 /* CustomHeaderMenuCell.swift */; };
+		CA8FA7CA1EFCF2D60085184B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CA8FA7C91EFCF2D60085184B /* Podfile */; };
+		CACF2AB01EFF6F6900EBAC4D /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF2AAF1EFF6F6900EBAC4D /* Film.swift */; };
+		CACF2AB21EFF770600EBAC4D /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF2AB11EFF770600EBAC4D /* Films.swift */; };
+		CACF2AB61EFFA24400EBAC4D /* ContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF2AB51EFFA24400EBAC4D /* ContainerTableViewCell.swift */; };
+		CACF2AB81F000A7300EBAC4D /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF2AB71F000A7300EBAC4D /* FilmViewController.swift */; };
+		CAEE98BE1EFEDB7900DD8509 /* DetailFilmType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEE98BD1EFEDB7900DD8509 /* DetailFilmType.swift */; };
+		D1AAF3774932DAD03E0DD40A /* Pods_PhimMoi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF694CA18EB506F1BFC1B409 /* Pods_PhimMoi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3361D7EC66B1729056946209 /* Pods-PhimMoi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhimMoi.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhimMoi/Pods-PhimMoi.release.xcconfig"; sourceTree = "<group>"; };
+		76EB221ECB4AF825B996B49C /* Pods-PhimMoi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhimMoi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhimMoi/Pods-PhimMoi.debug.xcconfig"; sourceTree = "<group>"; };
+		CA0F730F1EFCD854008BAE8D /* PhimMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhimMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0F73121EFCD854008BAE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA0F73141EFCD854008BAE8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA0F73171EFCD854008BAE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0F731A1EFCD854008BAE8D /* PhimMoi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhimMoi.xcdatamodel; sourceTree = "<group>"; };
+		CA0F731C1EFCD854008BAE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0F731F1EFCD854008BAE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA0F73211EFCD854008BAE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7F21FC1EFE399B000A9940 /* CustomHeaderMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderMenuCell.swift; sourceTree = "<group>"; };
+		CA8FA7C91EFCF2D60085184B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CACF2AAF1EFF6F6900EBAC4D /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		CACF2AB11EFF770600EBAC4D /* Films.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		CACF2AB51EFFA24400EBAC4D /* ContainerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerTableViewCell.swift; sourceTree = "<group>"; };
+		CACF2AB71F000A7300EBAC4D /* FilmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		CAEE98BD1EFEDB7900DD8509 /* DetailFilmType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFilmType.swift; sourceTree = "<group>"; };
+		FF694CA18EB506F1BFC1B409 /* Pods_PhimMoi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhimMoi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0F730C1EFCD854008BAE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AAF3774932DAD03E0DD40A /* Pods_PhimMoi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C20A4A9530130BB1338E3E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF694CA18EB506F1BFC1B409 /* Pods_PhimMoi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80D22F630A3433A70FB5B067 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76EB221ECB4AF825B996B49C /* Pods-PhimMoi.debug.xcconfig */,
+				3361D7EC66B1729056946209 /* Pods-PhimMoi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA0F73061EFCD854008BAE8D = {
+			isa = PBXGroup;
+			children = (
+				CA8FA7C91EFCF2D60085184B /* Podfile */,
+				CA0F73111EFCD854008BAE8D /* PhimMoi */,
+				CA0F73101EFCD854008BAE8D /* Products */,
+				80D22F630A3433A70FB5B067 /* Pods */,
+				1C20A4A9530130BB1338E3E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0F73101EFCD854008BAE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F730F1EFCD854008BAE8D /* PhimMoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0F73111EFCD854008BAE8D /* PhimMoi */ = {
+			isa = PBXGroup;
+			children = (
+				CACF2AAE1EFF6F5200EBAC4D /* Models */,
+				CA8FA7CB1EFD193D0085184B /* Controllers */,
+				CA0F73121EFCD854008BAE8D /* AppDelegate.swift */,
+				CA0F73141EFCD854008BAE8D /* ViewController.swift */,
+				CA0F73161EFCD854008BAE8D /* Main.storyboard */,
+				CA0F731C1EFCD854008BAE8D /* Assets.xcassets */,
+				CA0F731E1EFCD854008BAE8D /* LaunchScreen.storyboard */,
+				CA0F73211EFCD854008BAE8D /* Info.plist */,
+				CA0F73191EFCD854008BAE8D /* PhimMoi.xcdatamodeld */,
+				CACF2AB71F000A7300EBAC4D /* FilmViewController.swift */,
+			);
+			path = PhimMoi;
+			sourceTree = "<group>";
+		};
+		CA8FA7CB1EFD193D0085184B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F21FC1EFE399B000A9940 /* CustomHeaderMenuCell.swift */,
+				CAEE98BD1EFEDB7900DD8509 /* DetailFilmType.swift */,
+				CACF2AB51EFFA24400EBAC4D /* ContainerTableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CACF2AAE1EFF6F5200EBAC4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CACF2AAF1EFF6F6900EBAC4D /* Film.swift */,
+				CACF2AB11EFF770600EBAC4D /* Films.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0F730E1EFCD854008BAE8D /* PhimMoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0F73241EFCD854008BAE8D /* Build configuration list for PBXNativeTarget "PhimMoi" */;
+			buildPhases = (
+				736A70904514CC2B48716CB7 /* [CP] Check Pods Manifest.lock */,
+				CA0F730B1EFCD854008BAE8D /* Sources */,
+				CA0F730C1EFCD854008BAE8D /* Frameworks */,
+				CA0F730D1EFCD854008BAE8D /* Resources */,
+				8E27C8D0D04B1F595359680B /* [CP] Embed Pods Frameworks */,
+				107FEBFBCBEA3B74FAB13BAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhimMoi;
+			productName = PhimMoi;
+			productReference = CA0F730F1EFCD854008BAE8D /* PhimMoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0F73071EFCD854008BAE8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = vensera;
+				TargetAttributes = {
+					CA0F730E1EFCD854008BAE8D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 94GU8F632C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA0F730A1EFCD854008BAE8D /* Build configuration list for PBXProject "PhimMoi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0F73061EFCD854008BAE8D;
+			productRefGroup = CA0F73101EFCD854008BAE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0F730E1EFCD854008BAE8D /* PhimMoi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0F730D1EFCD854008BAE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0F73201EFCD854008BAE8D /* LaunchScreen.storyboard in Resources */,
+				CA0F731D1EFCD854008BAE8D /* Assets.xcassets in Resources */,
+				CA8FA7CA1EFCF2D60085184B /* Podfile in Resources */,
+				CA0F73181EFCD854008BAE8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		107FEBFBCBEA3B74FAB13BAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhimMoi/Pods-PhimMoi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736A70904514CC2B48716CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E27C8D0D04B1F595359680B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhimMoi/Pods-PhimMoi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0F730B1EFCD854008BAE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0F731B1EFCD854008BAE8D /* PhimMoi.xcdatamodeld in Sources */,
+				CACF2AB81F000A7300EBAC4D /* FilmViewController.swift in Sources */,
+				CACF2AB01EFF6F6900EBAC4D /* Film.swift in Sources */,
+				CA0F73151EFCD854008BAE8D /* ViewController.swift in Sources */,
+				CACF2AB21EFF770600EBAC4D /* Films.swift in Sources */,
+				CA7F21FD1EFE399B000A9940 /* CustomHeaderMenuCell.swift in Sources */,
+				CACF2AB61EFFA24400EBAC4D /* ContainerTableViewCell.swift in Sources */,
+				CAEE98BE1EFEDB7900DD8509 /* DetailFilmType.swift in Sources */,
+				CA0F73131EFCD854008BAE8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA0F73161EFCD854008BAE8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0F73171EFCD854008BAE8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA0F731E1EFCD854008BAE8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0F731F1EFCD854008BAE8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0F73221EFCD854008BAE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA0F73231EFCD854008BAE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0F73251EFCD854008BAE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76EB221ECB4AF825B996B49C /* Pods-PhimMoi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94GU8F632C;
+				INFOPLIST_FILE = PhimMoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vensera.PhimMoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA0F73261EFCD854008BAE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3361D7EC66B1729056946209 /* Pods-PhimMoi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94GU8F632C;
+				INFOPLIST_FILE = PhimMoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vensera.PhimMoi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0F730A1EFCD854008BAE8D /* Build configuration list for PBXProject "PhimMoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0F73221EFCD854008BAE8D /* Debug */,
+				CA0F73231EFCD854008BAE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0F73241EFCD854008BAE8D /* Build configuration list for PBXNativeTarget "PhimMoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0F73251EFCD854008BAE8D /* Debug */,
+				CA0F73261EFCD854008BAE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA0F73191EFCD854008BAE8D /* PhimMoi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA0F731A1EFCD854008BAE8D /* PhimMoi.xcdatamodel */,
+			);
+			currentVersion = CA0F731A1EFCD854008BAE8D /* PhimMoi.xcdatamodel */;
+			path = PhimMoi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA0F73071EFCD854008BAE8D /* Project object */;
+}
