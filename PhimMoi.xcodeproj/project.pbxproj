@@ -13,6 +13,7 @@
 		CA0F731B1EFCD854008BAE8D /* PhimMoi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA0F73191EFCD854008BAE8D /* PhimMoi.xcdatamodeld */; };
 		CA0F731D1EFCD854008BAE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F731C1EFCD854008BAE8D /* Assets.xcassets */; };
 		CA0F73201EFCD854008BAE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0F731E1EFCD854008BAE8D /* LaunchScreen.storyboard */; };
+		CA16E6ED1F02B9950075F907 /* DetailFilmTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA16E6EC1F02B9950075F907 /* DetailFilmTypeCell.swift */; };
 		CA7F21FD1EFE399B000A9940 /* CustomHeaderMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F21FC1EFE399B000A9940 /* CustomHeaderMenuCell.swift */; };
 		CA8FA7CA1EFCF2D60085184B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CA8FA7C91EFCF2D60085184B /* Podfile */; };
 		CACF2AB01EFF6F6900EBAC4D /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF2AAF1EFF6F6900EBAC4D /* Film.swift */; };
@@ -34,6 +35,7 @@
 		CA0F731C1EFCD854008BAE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA0F731F1EFCD854008BAE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0F73211EFCD854008BAE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA16E6EC1F02B9950075F907 /* DetailFilmTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFilmTypeCell.swift; sourceTree = "<group>"; };
 		CA7F21FC1EFE399B000A9940 /* CustomHeaderMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderMenuCell.swift; sourceTree = "<group>"; };
 		CA8FA7C91EFCF2D60085184B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		CACF2AAF1EFF6F6900EBAC4D /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				CA7F21FC1EFE399B000A9940 /* CustomHeaderMenuCell.swift */,
 				CAEE98BD1EFEDB7900DD8509 /* DetailFilmType.swift */,
 				CACF2AB51EFFA24400EBAC4D /* ContainerTableViewCell.swift */,
+				CA16E6EC1F02B9950075F907 /* DetailFilmTypeCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				CA0F731B1EFCD854008BAE8D /* PhimMoi.xcdatamodeld in Sources */,
 				CACF2AB81F000A7300EBAC4D /* FilmViewController.swift in Sources */,
+				CA16E6ED1F02B9950075F907 /* DetailFilmTypeCell.swift in Sources */,
 				CACF2AB01EFF6F6900EBAC4D /* Film.swift in Sources */,
 				CA0F73151EFCD854008BAE8D /* ViewController.swift in Sources */,
 				CACF2AB21EFF770600EBAC4D /* Films.swift in Sources */,

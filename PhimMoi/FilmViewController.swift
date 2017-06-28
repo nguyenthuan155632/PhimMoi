@@ -14,7 +14,7 @@ class FilmViewController: UIViewController {
 
     @IBOutlet weak var lblUrlFilm: UILabel!
     
-    
+    @IBOutlet weak var webView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,7 @@ class FilmViewController: UIViewController {
         lblUrlFilm.text = data
 
         // Do any additional setup after loading the view.
+        webView.loadRequest(URLRequest(url: URL(string: "https://www.youtube.com/embed/9fS7hoBVPnI")!))
     }
 
     override func didReceiveMemoryWarning() {
